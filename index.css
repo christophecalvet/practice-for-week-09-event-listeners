@@ -1,3 +1,7 @@
+:root {
+    --colorselected:yellow;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -6,4 +10,15 @@ section {
     padding: 1em;
     border: 1px solid black;
     border-radius: 25px;
+}
+
+.backgroundred {
+    background-color:red;
+}
+
+
+
+.colorselected {
+    /* background-color:yellow; */
+    background-color: var(--colorselected);
 }
